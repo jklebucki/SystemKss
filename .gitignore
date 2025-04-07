@@ -1,10 +1,6 @@
-# Dotnet specific
-bin/
-obj/
-!*/src/*/bin/
-!*/src/*/obj/
-!*/tests/*/bin/
-!*/tests/*/obj/
+# Ignore all bin and obj folders (for all projects)
+**/bin/
+**/obj/
 
 # User-specific files
 *.rsuser
