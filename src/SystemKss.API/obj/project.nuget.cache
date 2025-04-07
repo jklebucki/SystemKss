@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "vmuCLOxn3vIS5yWSpU+IfxeZhY9jCENQXP8T5WCGPgTMzVRfLy8/3VWJ315o06nolQAdh1ASQjXzcpfX3VMR1Q==",
+  "success": true,
+  "projectFilePath": "/Users/jklebucki/Projects/SystemKss/SystemKss/src/SystemKss.API/SystemKss.API.csproj",
+  "expectedPackageFiles": [
+    "/Users/jklebucki/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/jklebucki/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/jklebucki/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/Users/jklebucki/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/Users/jklebucki/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/Users/jklebucki/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

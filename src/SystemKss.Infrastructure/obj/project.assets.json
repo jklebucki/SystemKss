@@ -1,0 +1,112 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "SystemKss.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "SystemKss.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SystemKss.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SystemKss.Application.dll": {}
+        }
+      },
+      "SystemKss.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/SystemKss.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SystemKss.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SystemKss.Application/1.0.0": {
+      "type": "project",
+      "path": "../SystemKss.Application/SystemKss.Application.csproj",
+      "msbuildProject": "../SystemKss.Application/SystemKss.Application.csproj"
+    },
+    "SystemKss.Domain/1.0.0": {
+      "type": "project",
+      "path": "../SystemKss.Domain/SystemKss.Domain.csproj",
+      "msbuildProject": "../SystemKss.Domain/SystemKss.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "SystemKss.Application >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/jklebucki/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/jklebucki/Projects/SystemKss/SystemKss/src/SystemKss.Infrastructure/SystemKss.Infrastructure.csproj",
+      "projectName": "SystemKss.Infrastructure",
+      "projectPath": "/Users/jklebucki/Projects/SystemKss/SystemKss/src/SystemKss.Infrastructure/SystemKss.Infrastructure.csproj",
+      "packagesPath": "/Users/jklebucki/.nuget/packages/",
+      "outputPath": "/Users/jklebucki/Projects/SystemKss/SystemKss/src/SystemKss.Infrastructure/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/jklebucki/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Users/jklebucki/Projects/SystemKss/SystemKss/src/SystemKss.Application/SystemKss.Application.csproj": {
+              "projectPath": "/Users/jklebucki/Projects/SystemKss/SystemKss/src/SystemKss.Application/SystemKss.Application.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
